@@ -48,7 +48,7 @@ function addNewNote(text = '') {
 
         updateLS()
     })
-
+    textArea.style.backgroundImage=`url(${"https://source.unsplash.com/random"})`
     document.body.appendChild(note)
 }
 

@@ -58,6 +58,10 @@ body {
   animation: slideOn 0.3s linear forwards;
 }
 
+#describtion{
+  padding:10px;
+}
+
 @keyframes slideOn {
   0% {
     transform: translateX(0) scale(1);

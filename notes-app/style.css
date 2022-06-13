@@ -63,6 +63,18 @@ body {
   height: 400px;
   width: 100%;
   padding: 20px;
+
+
+  filter: blur(26px);
+  -webkit-filter: blur(26px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main {
